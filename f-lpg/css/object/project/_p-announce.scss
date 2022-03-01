@@ -1,0 +1,12 @@
+.p-announce {
+  width: 100%;
+  &__ttl {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  &__txt {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+}

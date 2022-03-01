@@ -1,0 +1,25 @@
+.p-cta {
+  width: 480px;
+  margin: 130px auto 120px;
+  position: relative;
+  &__btnWrap {
+    width: 480px;
+    height: 53.59px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px #ACACAD;
+    border-style: none solid solid none;
+  }
+  &__btn {
+    width: 480px;
+    padding: 10px 0;
+    display: block;
+    font-size: 21px;
+    color: #fff;
+    background-color: #C1D3D3;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  }
+}

@@ -1,0 +1,42 @@
+//BASE//
+body {
+  width: 100%;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 33px;
+  @include bp-sp {
+    font-size: 21px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  @include bp-sp {
+    font-size: 15px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  @include bp-sp {
+    font-size: 15px;
+  }
+}
+
+p {
+  font-size: 15px;
+  color: #747474;
+  @include bp-sp {
+    font-size: 12px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="button"],input[type="text"],input[type="submit"],input[type="image"],textarea {
+  outline: none;
+}

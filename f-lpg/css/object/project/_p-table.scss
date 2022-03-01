@@ -1,0 +1,57 @@
+.p-table {
+  width: 100%;
+  font-size: 0;
+  border-collapse: collapse;
+  tr {
+    width: 100%;
+    display: block;
+    color: #747474;
+    border-bottom: solid 2px #C1D3D3;
+    background-color: #EFF2F2;
+    th {
+      width: 15%;
+      padding: 10px 20px;
+      display: inline-block;
+      font-size: 15px;
+      text-align-last: justify;
+    }
+    td {
+      width: 85%;
+      padding: 10px 10px;
+      display: inline-block;
+      font-size: 15px;
+      background-color: #fff;
+      span {
+        display: inline-block;
+      }
+    }
+  }
+  &__number {
+    width: 13.5px;
+    vertical-align: top;
+  }
+  .number__two-digits {
+    width: 23.3px;
+  }
+  &__text {
+    width: calc(100% - 13.5px);
+    margin-bottom: 5px;
+  }
+  .text__two-digits {
+    width: calc(100% - 23.3px);
+  }
+  &__history {
+    tr {
+      width: 100%;
+      th {
+        width: 20%;
+        text-align: left;
+        text-align-last: auto;
+        vertical-align: top;
+      }
+      td {
+        width: 80%;
+      }
+    }
+  }
+}

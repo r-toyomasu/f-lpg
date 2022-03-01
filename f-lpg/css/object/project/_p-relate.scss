@@ -1,0 +1,38 @@
+.p-relate {
+  width: 960px;
+  margin: 0 auto 120px;
+  padding: 0 20px 0;
+  border: solid 2px #C1D3D3;
+  border-style: none none solid solid;
+  &__ttl {
+    margin-bottom: 20px;
+    color: #009BCE;
+    vertical-align: text-bottom;
+  }
+  &__ttl::before {
+    content: '';
+    width: 47px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    mask-image: url("../images/top/icon_ttl.svg");
+    background-color: #009BCE;
+  }
+  &__ttl-orange {
+     color: #EA8E00;
+  }
+  &__ttl-orange::before {
+    background-color: #EA8E00;
+  }
+  &__linkWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    width: 170px;
+    height: 40px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #DBDBDB;
+  }
+}

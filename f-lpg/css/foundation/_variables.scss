@@ -1,0 +1,22 @@
+//======== space ========//
+$space: 20px;
+
+//======== RESPONSIVE ========//
+$desktop: 1060px;
+$tablet: 768px;
+
+@mixin bp-pc {
+  @media screen and (min-width:$desktop) {
+    @content;
+  }
+}
+@mixin bp-tab {
+  @media screen and (max-width:($desktop - 1)) {
+    @content;
+  }
+}
+@mixin bp-sp {
+  @media screen and (max-width:($tablet - 1)) {
+    @content;
+  }
+}

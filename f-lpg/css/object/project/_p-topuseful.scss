@@ -1,0 +1,141 @@
+.p-topUseful {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+  &__cm {
+    width: 242px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__cmImg {
+    width: 100%;
+  }
+  &__list {
+    width: 698px;
+    display: inline-block;
+    font-size: 15px;
+    color: #879898;
+  }
+  &__ttl {
+    width: 100%;
+    padding: 10px 0;
+    margin: 8.5px 0 20px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #C1D3D3;
+  }
+  &__ttl::after {
+    content: 'Information';
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+  }
+  &__first {
+    padding-bottom: 20px;
+    display: flex;
+    border-bottom: solid 2px #C1D3D3;
+  }
+  &__second {
+    padding: 20px 0 20px 0;
+    display: flex;
+    border-bottom: solid 2px #C1D3D3;
+  }
+  &__third {
+    padding: 20px 0 20px 0;
+    display: flex;
+    border-bottom: solid 2px #C1D3D3;
+  }
+  &__contentWrap {
+    padding: 0 15px;
+    transform: skewX(-15deg);
+    border-right: solid 2px #ACACAD;
+  }
+  &__contentWrap:nth-child(3) {
+    border-right: none;
+  }
+  &__content {
+    width: 200px;
+    display: flex;
+    color: #879898;
+    font-weight: bold;
+    align-items: center;
+    line-height: 18px;
+    transform: skewX(15deg);
+  }
+  &__content::before {
+    margin-right: 15px;
+  }
+  &__content.energyNews::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_energynews.png");
+    background-size: contain;
+  }
+  &__content.threeMinutes::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_threeminutes.png");
+    background-size: contain;
+  }
+  &__content.energyPoint::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_energypoint.png");
+    background-size: contain;
+  }
+  &__content.certificate::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_certificate.png");
+    background-size: contain;
+  }
+  &__content.guideline::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_guideline.png");
+    background-size: contain;
+  }
+  &__content.gusBook::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_gusbook.png");
+    background-size: contain;
+  }
+  &__content.newPrice::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_newprice.png");
+    background-size: contain;
+  }
+  &__content.disaster::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_disaster.png");
+    background-size: contain;
+  }
+  &__content.check::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    display:inline-block;
+    background-image: url("../images/top/icon_check.png");
+    background-size: contain;
+  }
+}

@@ -1,0 +1,32 @@
+.p-customer {
+  display: flex;
+  align-items: flex-end;
+  &__left {
+    margin-right: 20px;
+    display: block;
+  }
+  &__right {
+    display: block;
+    line-height:39px;
+  }
+  &__name {
+    font-size: 27px;
+    font-weight: bold;
+  }
+  &__address {
+    font-size: 18px;
+    font-weight: bold; 
+  }
+  &__tel {
+    font-size: 39px;
+    font-weight: bold;
+    &::before {
+      content: '';
+      width: 47.656px;
+      height: 30px;
+      margin-right: 5px;
+      display: inline-block;
+      background-image: url("../images/icon_tel.svg");
+    }
+  }
+}

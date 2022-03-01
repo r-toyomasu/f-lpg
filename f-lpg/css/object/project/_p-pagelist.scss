@@ -1,0 +1,107 @@
+.p-pageList {
+  width: 1060px;
+  margin: 0 auto 40px;
+  display: block;
+  &__link {
+    color: #879898;
+    font-weight: bold;
+  }
+  &__link::before {
+    margin: 0 auto 5px;
+    display: block;
+    background-color: #879898;
+  }
+  &__link.info {
+    display: block;
+    p {
+      border-left: solid 2px #879898;
+      margin-bottom: 10px;
+    }
+  }
+  &__link.info::before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    mask-image: url("../images/icon_info.svg");
+  }
+  &__link.guide {
+    display: block;
+    p {
+      border-left: solid 2px #879898;
+      border-right: solid 2px #879898;
+      margin-bottom: 10px;
+    }
+  }
+  &__link.guide::before {
+    content: '';
+    width: 56px;
+    height: 45px;
+    mask-image: url("../images/icon_guide.svg");
+  }
+  &__link.shopSearch {
+    display: block;
+    p {
+      border-right: solid 2px #879898;
+      margin-bottom: 10px;
+    }
+  }
+  &__link.shopSearch::before {
+    content: '';
+    width: 28px;
+    height: 45px;
+    mask-image: url("../images/icon_pin.svg");
+  }
+  &__link.certification {
+    display: block;
+    p {
+      border-left: solid 2px #879898;
+      margin-bottom: 10px;
+    }
+  }
+  &__link.certification::before {
+    content: '';
+    width: 32px;
+    height: 45px;
+    mask-image: url("../images/icon_bigin.svg");
+  }
+  &__link.members {
+    display: block;
+    p {
+      border-left: solid 2px #879898;
+      border-right: solid 2px #879898;
+      margin-bottom: 10px;
+    }
+  }
+  &__link.members::before {
+    content: '';
+    width: 32px;
+    height: 45px;
+    mask-image: url("../images/icon_lock.svg");
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__wrap {
+    text-align: center;
+  }
+  .pageList-first {
+    padding: 0 50px;
+    margin-bottom: 20px;
+    .p-pageList__wrap {
+      width: 318px;
+    }
+    img {
+      width: 310px;
+    }
+  }
+  .pageList-second {
+    padding: 0 50px;
+    .p-pageList__wrap {
+      width: 480px;
+    }
+    img {
+      width: 473px;
+    }
+  }
+}
